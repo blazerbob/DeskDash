@@ -1,31 +1,17 @@
-# Python
+# Служебные файлы Python
 __pycache__/
-*.py[cod]
-.venv/
-venv/
-env/
-*.egg-info/
-.pytest_cache/
+*.pyc
+*.pyo
 
-# PlatformIO / Arduino / ESP-IDF
-.pio/
-.pioenvs/
-.piolibdeps/
-build/
-sdkconfig
-sdkconfig.old
-.vscode/c_cpp_properties.json
-.vscode/launch.json
-.vscode/ipch/
+# Настройки редактора
+.vscode/
+.idea/
 
-# OS / editor
-.DS_Store
+# Сборка Arduino
+firmware/build/
+*.hex
+*.bin
+
+# Системное
 Thumbs.db
 desktop.ini
-*.swp
-
-# Secrets / local config
-secrets.h
-.env
-*.local
-config/secrets*
