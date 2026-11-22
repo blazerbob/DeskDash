@@ -8,3 +8,4 @@ ram = psutil.virtual_memory().percent  # сколько занято опера�
 
 print(f"CPU: {cpu}%")
 print(f"RAM: {ram}%")
+print(f"Всего памяти: {psutil.virtual_memory().total // (1024**3)} ГБ")
