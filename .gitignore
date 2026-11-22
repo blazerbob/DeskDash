@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# PlatformIO / Arduino / ESP-IDF
+.pio/
+.pioenvs/
+.piolibdeps/
+build/
+sdkconfig
+sdkconfig.old
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Secrets / local config
+secrets.h
+.env
+*.local
+config/secrets*
